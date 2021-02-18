@@ -19,7 +19,7 @@ body{
     list-style:none;
     height: 25px;
     line-height: 25px;
-    padding: 0 25px;
+    padding: 0 40px;
     text-align: center;
     background: #02263b;
     position: relative;
@@ -65,8 +65,9 @@ body{
   }
 .column {
     float: left;
-    width: 300px;
+    width: 375px;
     padding: 10px;
+    position: relative;
     margin-right: 15px;
   }
 .column img{
