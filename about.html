@@ -1,21 +1,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0"><!--start--> <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> <!--end-->
         <link rel="stylesheet" href="css/about.css">
-        <title>Website for beginners - practice</title>   
+        <title>Website for Beginners - Final</title>   
     </head>
     <body>     
-        <!---start of nav bar-->
-        <nav>
-            <h1 class="a">This is the navigation</nav></h1>
-            <ul>
-                <a href="contact.html" class="nav-link">Contact</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="index.html" class="nav-link">Home</a>
-            </ul>
-        </nav>
-        <!-- end of Nav bar-->
+         
         <!--start of header-->
         <header>
         <!--start of logo-->
@@ -25,9 +17,16 @@
             <h2 class="b">The Henderson Hub</h2> 
         </header>
         <!--end of header-->
-        <!--start of aside/body-->
-        <body>
-            <div class="row">
+        <!---start of nav bar-->
+        <div id = "nav">
+            <!--<h1 class="a">This is the navigation</nav></h1>-->
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="index.html" class="nav-link">Home</a>
+        </div>
+        <!-- end of Nav bar-->
+    
+            <div class="row-top">
                 <div class="column" style="background-color:#ccc;">
                     <img src = "Img/Jo.jpg">
                         <h3>Jo, my Betta fish.</h3>
@@ -42,7 +41,7 @@
 
                 <div class="column" style="background-color:#ccc;">
                     <img src = "Img/Mins 1.jpg">
-                        <h2>Might Thin Mints</h2>
+                        <h2>Mighty Thin Mints</h2>
                         <p>Mins trying to sneak chamomile tea.</p>
                  </div>
                 
@@ -63,10 +62,7 @@
                         <h2>U.S. Navy</h2>
                         <p>In a few short months, I will be a civilian again! Yay!</p>
                 </div>
-        
-        </body>
-        <!--end of aside-->
-
+            </div>  
         <!--start of section-->
         <section>
             <h4 class="d">This is the</h4>
@@ -78,17 +74,27 @@
         <!--end of section-->
 
         <!--start of the article-->
-        <article>
-            <h5 class="e"> This is the article</h5>
-            <div class="text box">A little more about me: I am from Arkansas, born and raised. I miss the hell out of thunderstorms, lavish green fields, and southern food.
-                <h3>Hobbies</h3>
-                <ul>
-                    <li><strong>PLaying guitar and drums</strong></li>
-                    <li><strong>Swimming</strong></li>
-                    <li><strong>Reading paperback books</strong></li>
-                </ul>
+        <div class = "part-two">
+            <div class="row-pics">
+                <div class="column" id = "side-pics" style="background-color:#bbb;">
+                    <img src = "Img/First Harvest.jpg">
+                        <h3>First Harvest</h3>
+                        <p>Our first tomato harvest from last year.</p>
+                </div>
+                
+                <div class="column" id ="home" style="background-color:#ccc;">
+                    <img src = "Img/Home.jpg">
+                       <h2>Home</h2>
+                       <p>This is where I lived before moving to California. I miss it a lot.</p>
+               </div>
+
+                <div class="column" id = "side-pics" style="background-color:#bbb;">
+                    <img src = "Img/Kitten In Boot.jpg">
+                        <h3>A Kitten In A Boot</h3>
+                        <p>One of the kittens I fostered for the SPCA crawled into one of my work boots. Couldn't help but take a photo.</p>
+                </div>
             </div>
-        </article>
+        </div>
         <!--end of the article-->
         
         <!--start of the footer-->
@@ -97,10 +103,7 @@
             <!--start of social icon-->
             <p>Website design by AwesomeSauce Designs<br>
                 <a href="mailto:AwesomeS@example.com">AwesomeS@example.com</a></p>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<a href="#" class="fa fa-instagram"></a> <style>
-                </style>
+                <a href="#" class="fa fa-instagram"></a> 
                 <!--end of social icon-->
                 <div class="back-to-top">
                     <a href="about.html"><img src="img/Ocean.jpg"></a>
